@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <h2>Student Registration Form</h2>
+    <p>Cloud Computing Practical - Rosary College</p>
+    <form action="http://192.168.0.105/submit.php" method="post">
+      <label>Roll No</label>
+      <input type="text" name="roll_no" maxlength="10" placeholder="e.g. 2408118" required>
+      <label>Full Name</label>
+      <input type="text" name="name" maxlength="60" placeholder="Enter your name" required>
+      <label>Course</label>
+      <select name="course">
+        <option>TYBCA</option>
+        <option>SYBCA</option>
+        <option>FYBCA</option>
+      </select>
+      <label>Email</label>
+      <input type="email" name="email" placeholder="name@example.com" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+
